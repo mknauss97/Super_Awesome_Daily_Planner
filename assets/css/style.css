@@ -1,0 +1,57 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1;
+}
+input {
+    background: transparent;
+  border-top: 1px solid black;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+.schedule-block {
+    white-space: pre-wrap;
+}
+.time{
+    text-align: center;
+    border-radius: 15px;
+}
+.hourly {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+    padding: 25px;
+}
+.row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid white;;
+  }
+.saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: #06AED5;
+    color: white;
+}
+.future {
+    background-color: #3CB371;
+    color: 	#F0FFFF;
+}
+.current{
+    background-attachment:#FF6347;
+    color: 	#F0FFFF;
+}
+.past {
+    background-color: #C0C0C0;
+    color: black;
+}
